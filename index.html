@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Memorabilia Metadata Schema</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
+        h1, h2 { color: #2c3e50; }
+        a { color: #2980b9; }
+        nav a { margin-right: 15px; }
+        code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h1>Metadata Schema for a Film Memorabilia Collection</h1>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#standards">Standards</a>
+        <a href="#schema">Data Dictionary</a>
+        <a href="film_memorabilia_schema.xsd">XSD Schema</a>
+        <a href="poster_sample.xml">XML Record 1</a>
+        <a href="script_sample.xml">XML Record 2</a>
+    </nav>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>This metadata schema describes a curated collection of film memorabilia, including posters, scripts, autographs, and ephemera. It draws on established metadata standards to ensure interoperability while introducing custom fields for domain-specific features like autographs and restoration notes.</p>
+        <p>The schema is designed for private collectors, archives, and digital collections needing rich descriptive metadata for analog and digital audiovisual items.</p>
+    </section>
+
+    <section id="standards">
+        <h2>Metadata Standards Used</h2>
+        <ul>
+            <li><strong>Dublin Core (dc):</strong> Basic descriptive elements</li>
+            <li><strong>PBCore (pbcore):</strong> Audiovisual-specific metadata</li>
+            <li><strong>MODS (mods):</strong> Bibliographic structure</li>
+            <li><strong>Schema.org (schema):</strong> Web-structured data</li>
+            <li><strong>EAD (ead):</strong> Archival structure and arrangement</li>
+            <li><strong>LCSH (lcsh):</strong> Subject vocabularies</li>
+            <li><strong>OAI-PMH (oai):</strong> Harvesting compatibility</li>
+            <li><strong>FMC (fmc):</strong> Custom namespace for film-specific needs</li>
+        </ul>
+    </section>
+
+    <section id="schema">
+        <h2>Schema Overview</h2>
+        <p>See <code>film_memorabilia_schema.xsd</code> to view or validate the full XML Schema Definition.</p>
+        <p>Sample XML records:</p>
+        <ul>
+            <li><a href="poster_sample.xml">Movie Poster XML Sample</a></li>
+            <li><a href="script_sample.xml">Signed Script XML Sample</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>

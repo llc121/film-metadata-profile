@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmItem xmlns="http://www.example.org/fmc"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:mods="http://www.loc.gov/mods/v3"
+          xmlns:pbcore="http://pbcore.org/PBCore/PBCoreNamespace.html"
+          xmlns:schema="http://schema.org/"
+          xmlns:ead="urn:isbn:1-931666-22-9"
+          xmlns:lcsh="http://id.loc.gov/authorities/subjects"
+          xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+          xmlns:fmc="http://www.example.org/fmc"
+          xmlns:la="http://example.org/la">
+    <dc:title>Casablanca Final Shooting Script</dc:title>
+    <dc:creator>Julius J. Epstein, Philip G. Epstein</dc:creator>
+    <dc:date>1942-07-01</dc:date>
+    <mods:genre>Film Script</mods:genre>
+    <pbcore:instantiation>Typewritten manuscript, bound</pbcore:instantiation>
+    <schema:duration>PT1H42M</schema:duration>
+    <lcsh:subject>World War, 1939-1945 -- Morocco -- Casablanca</lcsh:subject>
+    <ead:container>Box 2, Folder 7</ead:container>
+    <oai:metadataFormat>oai_dc</oai:metadataFormat>
+    <fmc:signature>Signed by Ingrid Bergman and Humphrey Bogart</fmc:signature>
+    <fmc:restoration>Preserved in acid-free folder; no alterations made</fmc:restoration>
+    <la:provenance>Donated by private collector, 2005</la:provenance>
+</filmItem>
